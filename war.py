@@ -2,7 +2,7 @@ from random import shuffle
 
 class Card:
     ranks = [None, None, "2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king", "ace"]
-    suits = ["spades", "hearts", "diamonds", "clubs"]
+    suits = ["clubs", "diamonds", "hearts", "spades"]
     def __init__(self, r, s):
         self.rank = self.ranks[r]
         self.suit = self.suits[s]
